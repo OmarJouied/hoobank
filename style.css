@@ -634,7 +634,7 @@ span.white:nth-child(2) {
     }
     .hoobank__clients .hoobank__features-info {
         flex-direction: column;
-        gap: 60px;
+        gap: 24px 60px;
         align-items: flex-start;
     }
     .hoobank__end .hoobank__features-info-p {
@@ -701,6 +701,7 @@ span.white:nth-child(2) {
 @media (max-width: 565px) {
     .hoobank__features-info-h2 {
         font-size: 32px;
+        height: unset;
     }
     .hoobank__features-exp_item {
         flex-direction: column-reverse;
@@ -764,6 +765,13 @@ span.white:nth-child(2) {
     }
     .hoobank__footer .hoobank__header-logo_text {
         font-size: 40.58px !important;
+    }
+    .hoobank__footer-up > .hoobank__footer-up_item:last-child {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    }
+    span.white:nth-child(2) {
+        margin: 0;
     }
 }
 @media (max-width: 350px) {
