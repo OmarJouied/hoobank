@@ -498,6 +498,10 @@ section {
 span.white:nth-child(2) {
     margin: 0 15px;
 }
+.hoobank__footer-down_copyright * {
+    line-height: 27px;
+    font-size: 18px;
+}
 .first {
     font-family: 'Abel';
     color: #FFFFFF99;
@@ -835,6 +839,10 @@ span.white:nth-child(2) {
     }
     .hoobank__footer-down {
         font-size: 14px;
+    }
+    .hoobank__footer-down_copyright * {
+        line-height: 27px;
+        font-size: 12px;
     }
     .hoobank__footer-down_social > a > img {
         width: 16px;
