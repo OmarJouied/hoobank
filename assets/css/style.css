@@ -725,6 +725,9 @@ span.white:nth-child(2) {
     .container {
         max-width: 100%;
     }
+    .container * {
+        background-color: red;
+    }
     .hoobank__header-navbar {
         gap: 26px;
     }
